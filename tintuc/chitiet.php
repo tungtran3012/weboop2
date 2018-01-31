@@ -161,7 +161,7 @@ if (isset($_POST['binhluan'])) {
             <!-- Comments Form -->
             <div class="well">
                 <h4>Viết bình luận ...<span class="glyphicon glyphicon-pencil"></span></h4>
-                <form role="form" method="post" action="#">
+                <form role="form" method="post">
                     <div class="form-group">
                         <input type="hidden" name="id_tin" value="<?=$chitietTin->id?>">
                         <textarea class="form-control" rows="3" name="noidung"></textarea>
