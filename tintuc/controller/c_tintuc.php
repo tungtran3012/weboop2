@@ -51,7 +51,7 @@ include('model/pager.php');
 	    
 	    function themBinhluan($id_user,$id_tin,$noidung){
 	    	$m_tintuc = new M_tintuc();
-	    	$m_tintuc->addComment($id_user,$id_tin,$noidung);
+	    	$binhluan=$m_tintuc->addComment($id_user,$id_tin,$noidung);
 	    	header('Location:'.$_SERVER['HTTP_REFERER']);
 	    }
 	    function timkiem($key){
